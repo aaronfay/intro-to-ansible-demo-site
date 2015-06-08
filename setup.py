@@ -11,7 +11,7 @@ setup(
     description="Demo site for Ansible demo",
     long_description='This is not really much longer...',
     include_package_data=True,
-    packages='demo_site',
+    packages=['demo_site'],
     zip_safe=False,
     install_requires=required,
 )
